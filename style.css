@@ -1,0 +1,126 @@
+/* Needs Font-Awsome (http://fortawesome.github.io/Font-Awesome/) for icons to load !! */
+
+.social-buttons {
+  float: left;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 100%;
+}
+.social-buttons ul {
+  list-style: outside none none;
+  padding-left: 0;
+}
+.social-buttons li a span {
+  display: none;
+}
+@media (min-width: 768px) {
+  .social-buttons li a span {
+    display: inline;
+  }
+}
+.social-buttons li {
+  float: left;
+  padding-left: 0;
+  padding-right: 0;
+  width: 16.6667%;
+}
+.social-buttons li a {
+  color: #e1e1e1;
+  display: block;
+  padding: 10px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow 400ms ease 0s;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .social-buttons li a {
+    padding: 10px 10px 10px 25px;
+  }
+}
+.social-buttons li a:hover {
+  box-shadow: 0 0 10px rgba(80, 80, 80, 0.3) inset;
+}
+.social-buttons li a::before {
+  display: block;
+  font-size: 1.25em;
+  height: 100%;
+  left: 10px;
+  padding-top: 7px;
+  position: absolute;
+  top: 8px;
+}
+.social-buttons li i {
+  display: inline-block;
+  font-size: 140%;
+  text-align: center;
+  max-height: 20px;
+  max-width: 20px;
+}
+@media (min-width: 768px) {
+  .social-buttons li i {
+    left: .5rem;
+    position: absolute;
+    text-align: left;
+  }
+}
+@media (min-width: 992px) {
+  .social-buttons li i {
+    left: 1rem;
+  }
+}
+@media (min-width: 1200px) {
+  .social-buttons li i {
+    left: 2rem;
+  }
+}
+@media (min-width: 768px) {
+  .social-buttons li a {
+    padding: 10px;
+  }
+}
+.social-buttons li a span {
+  display: none;
+}.social-buttons li i {
+  display: inline-block;
+  font-size: 140%;
+  text-align: center;
+  max-height: 20px;
+  max-width: 20px;
+}
+@media (min-width: 768px) {
+  .social-buttons li i {
+    left: 0;
+    position: static;
+    text-align: center;
+  }
+}
+@media (min-width: 992px) {
+  .social-buttons li i {
+    left: 0;
+  }
+}
+@media (min-width: 1200px) {
+  .social-buttons li i {
+    left: 0;
+  }
+}
+.social-buttons .facebook {
+  background-color: #3b5998;
+}
+.social-buttons .linkedin {
+  background-color: #007bb6;
+}
+.social-buttons .twitter {
+  background-color: #00aced;
+}
+.social-buttons .reddit {
+  background-color: #9ab6d2;
+}
+.social-buttons .googleplus {
+  background-color: #dd4b39;
+}
+.social-buttons .pinterest {
+  background-color: #cb2027;
+}
